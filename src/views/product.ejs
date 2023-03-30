@@ -9,19 +9,19 @@
     <title>Express.js whit Node.js</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <!-- Icon -->
-    <link rel="stylesheet" href="assets/fonts/line-icons.css">
+    <link rel="stylesheet" href="../assets/fonts/line-icons.css">
     <!-- Owl carousel -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.theme.css">
 
     <!-- Animate -->
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
     <!-- Main Style -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <!-- Responsive Style -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
 
 </head>
 
@@ -30,55 +30,7 @@
     <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <a href="index.html" class="navbar-brand"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="lni-menu"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">
-                                About
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">
-                                Services
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">
-                                Team
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="products">
-                                Product
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#testimonial">
-                                Testimonial
-                            </a>
-                        </li>
-                        <!-- <li class="nav-item">
-                <a class="nav-link" href="#contact">
-                  Contact
-                </a>
-              </li> -->
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        
         <!-- Navbar End -->
 
 
@@ -92,19 +44,19 @@
     <section id="pricing" class="section-padding">
         <div class="container">
             <div class="section-header text-center">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Products</h2>
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Product Detail</h2>
                 <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
             </div>
             <div class="row">
 
-                <% products.map((product)=>{ %>
+                
                 <div class="col-lg-4 col-md-6 col-xs-12">
                     <div class="table wow fadeInLeft" data-wow-delay="1.2s">
                         <div class="icon-box">
                            <!-- img -->
                         </div>
                         <div class="pricing-header">
-                            <p class="price-value">ราคา<%=product.productPrice%></p>
+                            <p class="price-value"><%=product.productPrice%></p>
                         </div>
                         <div class="title">
                             <a href="/products/<%=product.id%>"><h3><%=product.productTitle%></h3></a>
@@ -115,7 +67,7 @@
                         <button class="btn btn-common">Buy Now</button>
                     </div>
                 </div>
-                <%});%>
+               
              
             </div>
         </div>
@@ -215,17 +167,17 @@
     <!-- End Preloader -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/scrolling-nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="../assets/js/jquery-min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/wow.js"></script>
+    <script src="../assets/js/jquery.nav.js"></script>
+    <script src="../assets/js/scrolling-nav.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/form-validator.min.js"></script>
+    <script src="../assets/js/contact-form-script.min.js"></script>
 
 </body>
 
