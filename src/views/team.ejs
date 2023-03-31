@@ -41,22 +41,22 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
                         <li class="nav-item active">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="/">
                                 Home
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">
+                            <a class="nav-link" href="">
                                 About
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">
+                            <a class="nav-link" href="">
                                 Services
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="team">
+                            <a class="nav-link" href="">
                                 Team
                             </a>
                         </li>
@@ -66,7 +66,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#testimonial">
+                            <a class="nav-link" href="">
                                 Testimonial
                             </a>
                         </li>
@@ -83,49 +83,106 @@
 
 
 
-
-
-
-        
-
-    <!-- Pricing section Start -->
-    <section id="pricing" class="section-padding">
+    <!-- Team Section Start -->
+    <section id="team" class="section-padding bg-gray">
         <div class="container">
             <div class="section-header text-center">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Products</h2>
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Meet our team</h2>
                 <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
             </div>
             <div class="row">
-
-                <% products.map((product)=>{ %>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="table wow fadeInLeft" data-wow-delay="1.2s">
-                        <div class="icon-box">
-                           <!-- img -->
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                    <!-- Team Item Starts -->
+                    <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="" alt="">
                         </div>
-                        <div class="pricing-header">
-                            <p class="price-value">ราคา<%=product.productPrice%></p>
+                        <div class="contetn">
+                            <div class="info-text">
+                                <h3><a href="#">Name</a></h3>
+                                <p>Front-end Developer</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+                                tenetur.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                            </ul>
                         </div>
-                        <div class="title">
-                            <a href="/products/<%=product.id%>"><h3><%=product.productTitle%></h3></a>
-                        </div>
-                        <ul class="description">
-                            <li><%=product.productDescription%></li>
-                        </ul>
-                        <button class="btn btn-common">Buy Now</button>
                     </div>
+                    <!-- Team Item Ends -->
                 </div>
-                <%});%>
-             
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                    <!-- Team Item Starts -->
+                    <div class="team-item wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="" alt="">
+                        </div>
+                        <div class="contetn">
+                            <div class="info-text">
+                                <h3><a href="#">Name</a></h3>
+                                <p>Product Designer</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+                                tenetur.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Team Item Ends -->
+                </div>
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                    <!-- Team Item Starts -->
+                    <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="" alt="">
+                        </div>
+                        <div class="contetn">
+                            <div class="info-text">
+                                <h3><a href="#">Name</a></h3>
+                                <p>Lead Designer</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+                                tenetur.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Team Item Ends -->
+                </div>
+                <div class="col-lg-6 col-md-12 col-xs-12">
+                    <!-- Team Item Starts -->
+                    <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="" alt="">
+                        </div>
+                        <div class="contetn">
+                            <div class="info-text">
+                                <h3><a href="#">Name</a></h3>
+                                <p>Lead Designer</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic
+                                tenetur.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Team Item Ends -->
+                </div>
             </div>
         </div>
     </section>
-    <!-- Pricing Table Section End -->
-
-
-
-
-
+    <!-- Team Section End -->
 
 
 

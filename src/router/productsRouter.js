@@ -8,11 +8,15 @@ productsRouter.route("/").get((req, res) => {
     });
 })
 
+
+
 productsRouter.route("/:id").get((req, res) => {
     const id = req.params.id;
     res.render("product",{
         product: products[id],
     })
 })
+
+
 
 module.exports = productsRouter;
